@@ -17,7 +17,8 @@ Some features include the ability to view:
   - the history of bids on a selected item
   - the history bids for that particular user themself
   - the history of bids in the entire auction
-There is a search feature that checks to see if there is an item and/or customer that matches the query. 
+
+There is also a search feature that checks to see if there is an item and/or customer that matches the query. 
 Whenever a user wants to complete their session, they may use the "Quit" button to do so.
 
 Please refer to "Documentation.pdf" for further information.
