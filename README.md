@@ -2,7 +2,7 @@ Welcome to eHills, the interactive bidding game that you can play anytime!
 
 To maintain academic integrity, the source code is not included in this repository. However, the JAR files are available, so the project can still be run.
 
-To run this project, first open the Server folder, click the Server JAR file, and wait until the server is set up with the items folder and derby.log file created. 
+To run this project, first download the files onto your PC. Unzip if needed. Then, open the Server folder, click the Server JAR file, and wait until the server is set up with the items folder and derby.log file created. 
 Then, open the Client folder and click the Client JAR file to start bidding. 
 
 After running the project, enter a username for the Client that is opened. Then, select an item from the dropdown menu. View the remaining time at the counter on the bottom left-hand corner of the GUI. Then, view the current status of the item. If someone paid the "Buy it Now" price, you should try another item. Otherwise, meet or surpass the current bid value to place a valid bid. Continue viewing other items through the dropdown and repeat the process until time runs out or someone pays the "Buy it now" price for the selected item.
