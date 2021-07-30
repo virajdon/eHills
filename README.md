@@ -5,10 +5,10 @@ To maintain academic integrity, the source code is not included in this reposito
 
 You can also view images of the project being run in the "Screenshots" folder.
 
-## Goal of the game ##
-The aim of the game is to place the highest bid within the time limit and successfully win the item. Multiple clients can be set up on one computer under different usernames. 
+## Background ##
+The aim of the game for a Client is to win as many items as possible by placing the highest bid of all other Clients within the item's time limit. Multiple clients can be set up on one computer under different usernames, and they will all be competing against each other to win items. 
 
-Some features include the ability to view:
+Some features of this game include the ability to view:
   - the name, image, and description of a selected item
   - the current highest bidder on the item or the winner of the bid if applicable
   - the history of bids on a selected item
@@ -21,10 +21,10 @@ Whenever a user wants to complete their session, they may use the "Quit" button 
 Please refer to "Documentation.pdf" for further information.
 
 ## Running the project ##
-To run this project, first download the files onto your PC by clicking the green "Code" button and unzipping the downloaded zip file. Then, open the Server folder, double click the Server JAR file, and wait until the server is set up with the items folder and derby.log file created. If rerunning the project, ensure the timestamp of the items folder and derby.log file match the current time. This ensures new files are created, which is necessary to run the Server again.
-Afterwards, open the Client folder and double click the Client JAR file to start bidding. 
+To run this project, first download the files to your machine by clicking the green "Code" button and unzipping the downloaded zip file. Then, open the Server folder, double click the Server JAR file, and wait until the server is set up with the items folder and derby.log file created. If rerunning the project, ensure the timestamp of the items folder and derby.log file match the current time. This ensures new files are created, which is necessary to run the Server again.
+After the Server is set up, open the Client folder and double click the Client JAR file to start bidding. 
 
-After running the project, enter a username for the Client that is opened. Then, select an item from the dropdown menu. View the remaining time at the counter on the bottom left-hand corner of the GUI. Then, view the current status of the item. If someone paid the "Buy it Now" price, you should try another item. Otherwise, surpass the current bid value to place a valid bid. Continue viewing other items through the dropdown and repeat the process until time runs out or someone pays the "Buy it now" price for the selected item.
+After opening a Client, enter a username for that Client. Then, select an item from the dropdown menu. View the remaining time at the counter on the bottom left-hand corner of the GUI. Then, view the current status of the item. If someone paid the "Buy it Now" price or time has run out to buy the item, you should try bidding on another item. Otherwise, surpass the current bid value to place a valid bid. Continue viewing other items through the dropdown and repeat the process until time runs out or someone pays the "Buy it now" price for the selected item.
 
 The "input" file in the Server folder holds all of the information that the game is based on. Each line represents an item in the game. The item's properties are (in order):
 
